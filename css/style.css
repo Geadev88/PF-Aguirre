@@ -77,22 +77,22 @@ h2 {
 footer {
   background-color: rgb(181, 202, 166);
 }
-
 footer ul {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 footer ul li {
   list-style: none;
   margin: 20px;
 }
-
-footer svg {
+footer ul li svg {
   width: 19px;
   fill: black;
 }
+
+/*
+
 
 /* Inicio Grid Index */
 .container {
