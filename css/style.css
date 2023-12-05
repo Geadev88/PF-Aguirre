@@ -67,7 +67,6 @@ h2 {
   text-wrap: pretty;
   margin-bottom: 50px;
 }
-
 .sectionMain1 p {
   font-size: 1.2em;
   margin: 0.4em 0 0 0;
@@ -220,13 +219,12 @@ footer ul li svg {
   }
 }
 /* Fin Media Queries Index */
-/* Inicio Estilos Alquiler */
+/* Inicio Estilos Pag. Alquiler */
 .propiedades {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-
 .propiedades .cardsAlquiler {
   border: solid rgb(199, 195, 195) 1px;
 }

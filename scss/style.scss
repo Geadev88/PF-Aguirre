@@ -71,24 +71,28 @@ h2 {
     text-align: center;
     text-wrap: pretty;
     margin-bottom: 50px;
+
+    p {
+        font-size: 1.20em;
+        margin: 0.40em 0 0 0;
+    }
 }
 
-.sectionMain1 p {
-    font-size: 1.20em;
-    margin: 0.40em 0 0 0;
-}
 
 /* Estilos Footer */
 
 footer {
     background-color: rgb(181, 202, 166);
+
     ul {
         display: flex;
         justify-content: center;
         align-items: center;
+
         li {
             list-style: none;
             margin: 20px;
+
             svg {
                 width: 19px;
                 fill: black;
@@ -250,15 +254,15 @@ footer {
 
 /* Fin Media Queries Index */
 
-/* Inicio Estilos Alquiler */
+/* Inicio Estilos Pag. Alquiler */
 .propiedades {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
 
-.propiedades .cardsAlquiler {
-    border: solid rgb(199, 195, 195) 1px;
+    .cardsAlquiler {
+        border: solid rgb(199, 195, 195) 1px;
+    }
 }
 
 .propiedades div {
