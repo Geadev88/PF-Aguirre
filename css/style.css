@@ -11,9 +11,8 @@
   width: 100%;
   position: sticky;
 }
-
-.logo img {
-  width: 5em;
+.navbar img {
+  width: 4.5em;
 }
 
 .nav-link {
@@ -22,7 +21,6 @@
   font-weight: bold;
   transition: all 0.3s;
 }
-
 .nav-link:hover {
   color: #ebebeb !important;
   transform: scale(0.9);
@@ -40,7 +38,6 @@ header img {
   color: rgb(216, 228, 182);
   text-shadow: 0 0 5px #000;
 }
-
 .jumbotron h1 {
   color: rgb(189, 223, 125);
   font-size: 50px;
@@ -93,7 +90,7 @@ footer ul li svg {
 /*
 
 
-/* Inicio Grid Index */
+/* Inicio Grid Pag. Index */
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -114,14 +111,12 @@ footer ul li svg {
   align-items: center;
   justify-content: center;
 }
-
 .containerImgGrid img {
   width: 250px;
   border-radius: 8px;
   margin: 20px 10px;
   transition: all 0.3s;
 }
-
 .containerImgGrid img:hover {
   transform: scale(1.1);
   border-radius: 25px;
@@ -134,13 +129,11 @@ footer ul li svg {
   border-radius: 4px;
   padding: 1em;
 }
-
 .actions input {
   border-radius: 4px;
   padding: 4px;
   border: none;
 }
-
 .actions button {
   margin: 0 20px 0 10px;
   border-radius: 4px;
@@ -152,11 +145,9 @@ footer ul li svg {
   grid-area: filters;
   padding: 0 1em 0 1em;
 }
-
 .filters select {
   margin: 5px 0 10px 0;
 }
-
 .filters div input {
   margin: 5px 0 5px 0;
 }
@@ -164,7 +155,6 @@ footer ul li svg {
 .itemText {
   padding-left: 20px;
 }
-
 .itemText ul li {
   list-style-type: none;
   margin: 10px;
@@ -191,7 +181,7 @@ footer ul li svg {
   align-items: center;
 }
 
-/* Fin Grid Index */
+/* Fin Grid Pag. Index */
 /* Inicio Media Queries Index */
 @media only screen and (min-width: 480px) {
   .container {
@@ -256,10 +246,9 @@ footer ul li svg {
 }
 
 /* Fin Estilos Pag Alquiler */
-/* Inicion Media Queries Alquiler */
+/* Inicio Media Queries pag. Alquiler */
 @media only screen and (min-width: 1024px) {
   .propiedades {
-    /* display: flex; */
     flex-direction: row;
   }
   .cardsAlquiler {

@@ -11,10 +11,10 @@
     background-color: #b5caa6;
     width: 100%;
     position: sticky;
-}
 
-.logo img {
-    width: 5em;
+    img {
+        width: 4.5em;
+    }
 }
 
 .nav-link {
@@ -22,11 +22,11 @@
     color: black !important;
     font-weight: bold;
     transition: all 0.3s;
-}
 
-.nav-link:hover {
-    color: #ebebeb !important;
-    transform: scale(0.9);
+    &:hover {
+        color: #ebebeb !important;
+        transform: scale(0.9);
+    }
 }
 
 header {
@@ -42,15 +42,14 @@ header {
     height: 450px;
     color: rgb(216, 228, 182);
     text-shadow: 0 0 5px #000;
-}
 
-.jumbotron h1 {
-    color: rgb(189, 223, 125);
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 20px;
+    h1 {
+        color: rgb(189, 223, 125);
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
 }
-
 
 /* Inicio del Main */
 main {
@@ -104,7 +103,7 @@ footer {
 /*
 
 
-/* Inicio Grid Index */
+/* Inicio Grid Pag. Index */
 
 .container {
     display: grid;
@@ -131,19 +130,20 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    img {
+        width: 250px;
+        border-radius: 8px;
+        margin: 20px 10px;
+        transition: all 0.3s;
+
+        &:hover {
+            transform: scale(1.10);
+            border-radius: 25px;
+        }
+    }
 }
 
-.containerImgGrid img {
-    width: 250px;
-    border-radius: 8px;
-    margin: 20px 10px;
-    transition: all 0.3s;
-}
-
-.containerImgGrid img:hover {
-    transform: scale(1.10);
-    border-radius: 25px;
-}
 
 .actions {
     width: 100%;
@@ -151,42 +151,42 @@ footer {
     grid-area: actions;
     border-radius: 4px;
     padding: 1em;
-}
 
-.actions input {
-    border-radius: 4px;
-    padding: 4px;
-    border: none;
-}
+    input {
+        border-radius: 4px;
+        padding: 4px;
+        border: none;
+    }
 
-.actions button {
-    margin: 0 20px 0 10px;
-    border-radius: 4px;
-    border: none;
-    padding: 4px;
+    button {
+        margin: 0 20px 0 10px;
+        border-radius: 4px;
+        border: none;
+        padding: 4px;
+    }
 }
 
 .filters {
     grid-area: filters;
     padding: 0 1em 0 1em;
-}
 
-.filters select {
-    margin: 5px 0 10px 0;
-}
+    select {
+        margin: 5px 0 10px 0;
+    }
 
-.filters div input {
-    margin: 5px 0 5px 0;
+    div input {
+        margin: 5px 0 5px 0;
+    }
 }
 
 .itemText {
     padding-left: 20px;
-}
 
-.itemText ul li {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0px;
+    ul li {
+        list-style-type: none;
+        margin: 10px;
+        padding: 0px;
+    }
 }
 
 .alq1 {
@@ -209,7 +209,7 @@ footer {
     align-items: center;
 }
 
-/* Fin Grid Index */
+/* Fin Grid Pag. Index */
 
 /* Inicio Media Queries Index */
 
@@ -299,10 +299,9 @@ footer {
 /* Fin Estilos Pag Alquiler */
 
 
-/* Inicion Media Queries Alquiler */
+/* Inicio Media Queries pag. Alquiler */
 @media only screen and (min-width: 1024px) {
     .propiedades {
-        /* display: flex; */
         flex-direction: row;
     }
 
