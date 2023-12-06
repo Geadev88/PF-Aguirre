@@ -219,7 +219,7 @@ footer ul li svg {
   }
 }
 /* Fin Media Queries Index */
-/* Inicio Estilos Pag. Alquiler */
+/* Inicio Estilos Pag Alquiler */
 .propiedades {
   display: flex;
   flex-direction: column;
@@ -227,31 +227,25 @@ footer ul li svg {
 }
 .propiedades .cardsAlquiler {
   border: solid rgb(199, 195, 195) 1px;
+  cursor: pointer;
 }
-
 .propiedades div {
-  /* width: 100%; */
   border-radius: 5px;
   margin-bottom: 30px;
-  /* padding: 5px 5px; */
 }
-
 .propiedades div img {
   width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
 }
-
 .propiedades div p {
   font-size: 0.9em;
   margin: 0 0 20px 20px;
 }
-
 .propiedades div ul {
   margin: 10px 0 30px 40px;
   font-size: 0.9em;
 }
-
 .propiedades div button {
   border: none;
   background-color: rgb(234, 245, 234);
@@ -261,12 +255,7 @@ footer ul li svg {
   padding: 12px;
 }
 
-.cardsAlquiler,
-button {
-  cursor: pointer;
-}
-
-/* Fin Estilos Alquiler */
+/* Fin Estilos Pag Alquiler */
 /* Inicion Media Queries Alquiler */
 @media only screen and (min-width: 1024px) {
   .propiedades {
