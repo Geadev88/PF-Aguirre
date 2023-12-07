@@ -38,8 +38,8 @@ header img {
   color: rgb(216, 228, 182);
   text-shadow: 0 0 5px #000;
 }
-.jumbotron h1 {
-  color: rgb(189, 223, 125);
+.jumbotron h2 {
+  color: rgb(188, 222, 125);
   font-size: 50px;
   font-weight: bold;
   margin-top: 20px;
@@ -52,7 +52,7 @@ main {
 
 h1 {
   font-size: 1.7em;
-  color: rgb(92, 108, 80);
+  color: #5c6c50;
 }
 
 h2 {
@@ -71,7 +71,7 @@ h2 {
 
 /* Estilos Footer */
 footer {
-  background-color: rgb(181, 202, 166);
+  background-color: #b5caa6;
 }
 footer ul {
   display: flex;
@@ -238,7 +238,7 @@ footer ul li svg {
 }
 .propiedades div button {
   border: none;
-  background-color: rgb(234, 245, 234);
+  background-color: #8eb38e;
   border-radius: 4px;
   font-size: 1em;
   width: 100%;
