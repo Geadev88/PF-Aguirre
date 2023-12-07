@@ -7,9 +7,15 @@
 }
 
 .navbar {
-  background-color: #b5caa6;
+  background-image: linear-gradient(to right, #b5caa6, #b5caa6, #d0d8ca);
   width: 100%;
   position: sticky;
+}
+.navbar .logo {
+  transition: all 0.9s;
+}
+.navbar .logo:hover {
+  transform: rotatey(360deg) scale(1.1);
 }
 .navbar img {
   width: 4.5em;
@@ -39,8 +45,8 @@ header img {
   text-shadow: 0 0 5px #000;
 }
 .jumbotron h2 {
-  color: rgb(188, 222, 125);
-  font-size: 50px;
+  color: #b5caa6;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -71,7 +77,7 @@ h2 {
 
 /* Estilos Footer */
 footer {
-  background-color: #b5caa6;
+  background-image: linear-gradient(to right, #b5caa6, #b5caa6, #d0d8ca);
 }
 footer ul {
   display: flex;

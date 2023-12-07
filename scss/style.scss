@@ -7,13 +7,18 @@
     font-family: 'Cormorant Garamond', serif;
 }
 // Variables Generales
-@import "_variables";
+@import "_variables"; 
 
 .navbar {
-    background-color: $color-navfoter;
+    background-image: linear-gradient($gradientes);
     width: 100%;
     position: sticky;
-
+    .logo {
+        transition: all 0.9s;
+        &:hover {
+            transform: rotatey(360deg) scale(1.1);
+        }
+    }
     img {
         width: 4.5em;
     }
@@ -46,8 +51,8 @@ header {
     text-shadow: 0 0 5px #000;
 
     h2 {
-        color: rgb(188, 222, 125);
-        font-size: 50px;
+        color: $color-h2;
+        font-size: 40px;
         font-weight: bold;
         margin-top: 20px;
     }
@@ -83,7 +88,8 @@ h2 {
 /* Estilos Footer */
 
 footer {
-    background-color: $color-navfoter;
+    // background-color: $color-navfoter;
+    background-image: linear-gradient($gradientes);
 
     ul {
         display: flex;
