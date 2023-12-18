@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #b5caa6, #b5caa6, #d0d8ca);
+  background-image: linear-gradient(to right, #b5caa6, #b5caa6, #e2e8de);
   width: 100%;
   position: sticky;
 }
@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.875em;
+  font-size: 1.2em;
 }
 
 .sectionMain1 {
@@ -62,7 +62,7 @@ h2 {
 
 /* Estilos Footer */
 footer {
-  background-image: linear-gradient(to right, #b5caa6, #b5caa6, #d0d8ca);
+  background-image: linear-gradient(to right, #b5caa6, #b5caa6, #e2e8de);
 }
 footer ul {
   display: flex;
