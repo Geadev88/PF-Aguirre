@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
 }
-// Variables Generales
+// Variables
 @import "_variables"; 
 
 .navbar {
@@ -39,22 +39,6 @@
 header {
     img {
         width: 100%;
-    }
-}
-
-.jumbotron {
-    background-image: url(../assets/header/headerIndex.png);
-    background-position: center;
-    background-size: cover;
-    height: 450px;
-    color: rgb(216, 228, 182);
-    text-shadow: 0 0 5px #000;
-
-    h2 {
-        color: $color-h2;
-        font-size: 40px;
-        font-weight: bold;
-        margin-top: 20px;
     }
 }
 

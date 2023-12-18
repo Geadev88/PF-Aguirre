@@ -36,21 +36,6 @@ header img {
   width: 100%;
 }
 
-.jumbotron {
-  background-image: url(../assets/header/headerIndex.png);
-  background-position: center;
-  background-size: cover;
-  height: 450px;
-  color: rgb(216, 228, 182);
-  text-shadow: 0 0 5px #000;
-}
-.jumbotron h2 {
-  color: #b5caa6;
-  font-size: 40px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
 /* Inicio del Main */
 main {
   margin: 20px 20px;
