@@ -5,10 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
+    // border: solid 2px red; 
 }
 // Variables
 @import "_variables"; 
 
+/* Inicio Navbar */
 .navbar {
     background-image: linear-gradient($gradientes);
     width: 100%;
@@ -72,7 +74,7 @@ h2 {
 /* Estilos Footer */
 
 footer {
-    // background-color: $color-navfoter;
+    
     background-image: linear-gradient($gradientes);
 
     ul {
@@ -246,7 +248,7 @@ footer {
 
 /* Fin Media Queries Index */
 
-/* Inicio Estilos Pag Alquiler */
+/* Inicio Estilos Pag Alquiler y Venta */
 .propiedades {
     display: flex;
     flex-direction: column;
@@ -285,6 +287,16 @@ footer {
             width: 100%;
             padding: 12px;
         }
+    }
+}
+/* Condicionales */
+.cardsAlquiler button {
+    @if $vista-1 == mobile {
+        color: whitesmoke;
+    }
+
+    @else if $vista == desktop {
+        color: black;
     }
 }
 

@@ -6,6 +6,7 @@
   font-family: "Cormorant Garamond", serif;
 }
 
+/* Inicio Navbar */
 .navbar {
   background-image: linear-gradient(to right, #b5caa6, #b5caa6, #e2e8de);
   width: 100%;
@@ -200,7 +201,7 @@ footer ul li svg {
   }
 }
 /* Fin Media Queries Index */
-/* Inicio Estilos Pag Alquiler */
+/* Inicio Estilos Pag Alquiler y Venta */
 .propiedades {
   display: flex;
   flex-direction: column;
@@ -234,6 +235,11 @@ footer ul li svg {
   font-size: 1em;
   width: 100%;
   padding: 12px;
+}
+
+/* Condicionales */
+.cardsAlquiler button {
+  color: whitesmoke;
 }
 
 /* Fin Estilos Pag Alquiler */
