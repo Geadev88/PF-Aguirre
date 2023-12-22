@@ -7,20 +7,30 @@
     font-family: 'Cormorant Garamond', serif;
     // border: solid 2px red; 
 }
+
 // Variables
-@import "_variables"; 
+@import "_variables";
+
+// Mixins
+@mixin sizes ($size, $color) {
+    font-size: $size;
+    color: $color;
+}
 
 /* Inicio Navbar */
 .navbar {
     background-image: linear-gradient($gradientes);
     width: 100%;
     position: sticky;
+
     .logo {
         transition: all 0.9s;
+
         &:hover {
             transform: rotatey(360deg) scale(1.1);
         }
     }
+
     img {
         width: 4.5em;
     }
@@ -50,12 +60,11 @@ main {
 }
 
 h1 {
-    font-size: 1.7em;
-    color: $color-h1;
+    @include sizes(1.7em, $color-h1)
 }
 
 h2 {
-    font-size: $font-h2;
+    @include sizes($font-h2, $color-h2)
 }
 
 
@@ -74,7 +83,7 @@ h2 {
 /* Estilos Footer */
 
 footer {
-    
+
     background-image: linear-gradient($gradientes);
 
     ul {
@@ -289,13 +298,14 @@ footer {
         }
     }
 }
+
 /* Condicionales */
 .cardsAlquiler button {
-    @if $vista-1 == mobile {
+    @if $vista-1 ==mobile {
         color: whitesmoke;
     }
 
-    @else if $vista == desktop {
+    @else if $vista ==desktop {
         color: black;
     }
 }
