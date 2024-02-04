@@ -1,1 +1,1 @@
-https://jfpropiedades.netlify.app/￼Enter
+https://jfpropiedades.netlify.app
